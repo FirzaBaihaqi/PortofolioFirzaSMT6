@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Firza Baihaqi</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cv.css">
+</head>
+<body>
+    <!-- Top Action Bar (hidden when printing) -->
+    <div class="cv-action-bar">
+        <h1>Curriculum Vitae Preview</h1>
+        <div class="btn-container">
+            <a href="index.html" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Kembali ke Portofolio
+            </a>
+            <button id="btn-print" class="btn btn-primary">
+                <i class="fas fa-print"></i> Cetak ke PDF
+            </button>
+        </div>
+    </div>
+
+    <!-- CV Document Container (A4 sized) -->
+    <div class="cv-container">
+        <!-- Header: Name, Title, and Photo -->
+        <header class="cv-header">
+            <div class="header-info">
+                <h1 id="cv-name">Loading Name...</h1>
+                <div id="cv-title" class="title">Loading Title...</div>
+            </div>
+            <div class="header-photo">
+                <img id="cv-photo" src="" alt="Profile Photo">
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="cv-content">
+            <!-- Left Column: Main Timeline Info -->
+            <main class="cv-main-col">
+                <!-- Summary / About -->
+                <section class="cv-section">
+                    <h2>Summary</h2>
+                    <p id="cv-summary" class="profile-summary">Loading summary...</p>
+                </section>
+
+                <!-- Experience -->
+                <section class="cv-section">
+                    <h2>Experience</h2>
+                    <div id="cv-experience-list">
+                        <!-- Experience timeline items will be rendered dynamically -->
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="cv-section">
+                    <h2>Education</h2>
+                    <div id="cv-education-list">
+                        <!-- Education timeline items will be rendered dynamically -->
+                    </div>
+                </section>
+
+                <!-- Key Research & Projects -->
+                <section class="cv-section">
+                    <h2>Key Projects & Research</h2>
+                    <div id="cv-projects-list">
+                        <!-- Project items will be rendered dynamically -->
+                    </div>
+                </section>
+            </main>
+
+            <!-- Right Column: Sidebar (Contact, Skills, etc.) -->
+            <aside class="cv-side-col">
+                <!-- Contact Information -->
+                <section class="cv-section">
+                    <h2>Contact</h2>
+                    <ul id="cv-contacts" class="contact-list">
+                        <!-- Contact details will be rendered dynamically -->
+                    </ul>
+                </section>
+
+                <!-- Technical & Core Skills -->
+                <section class="cv-section">
+                    <h2>Skills</h2>
+                    <div id="cv-skills" class="skills-list">
+                        <!-- Skills will be rendered dynamically -->
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </div>
+
+    <script src="js/cv.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+    {
+        "company": "Polines Robotic Evolution",
+		"logo":"images/polirevo-logo.png",
+        "position": "KRSRI Division Programmer",
+        "year": "2025 - Present",
+        "description": "I am a programmer in the KRSRI division, where I am required to implement autonomous robots that utilize sensors as inputs for their movements. I am also required to master the basics, advanced concepts, algorithms, applications, debugging, and other aspects of the C++ programming language."
+    },
+	{
+        "company": "Majelis Permusyawaratan Kelas",
+		"logo":"images/mpk-logo.png",
+        "position": "General Chairperson",
+        "year": "2022 - 2023",
+        "description": "As the General Chairperson of the school organization, I am responsible for leading the entire management team and overseeing all student activities. My duties include managing and directing members, coordinating various school work programs, and bridging the communication between students and the school administration. Additionally, I am responsible for taking strategic decisions, evaluating the performance of each division, and ensuring that all organizational goals are achieved successfully"
+    }
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/ar-logo.png" alt="Logo" class="nav-logo-img">
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="top-nav" id="top-nav">
+                <ul>
+                    <li><a href="#profile" class="active">Profile</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Profile Section -->
+		<section id="profile" class="section">
+			<div class="container">
+				<div class="profile-content">
+					<div class="profile-image-container">
+						<div class="profile-image-wrapper">
+							<img id="profile-pic" src="" alt="Profile Picture" class="profile-image">
+						</div>
+						<div class="profile-contact">
+							<p><i class="fas fa-envelope"></i> <span id="profile-email"></span></p>
+							<p><i class="fas fa-phone"></i> <span id="profile-phone"></span></p>
+							<div class="social-links" id="social-links"></div>
+							<a href="cv.html" id="cv-download" class="cv-download-btn" title="Download CV" target="_blank">
+								<i class="fas fa-file-pdf"></i>
+							</a>
+						</div>
+					</div>
+					<div class="profile-info">
+						<h1 id="profile-name"></h1>
+						    <p id="profile-description"></p>
+					</div>
+				</div>
+				<!-- Skills full width di bawah kedua kolom -->
+				<div class="skills-container" id="skills-container">
+					<h3>Skills</h3>
+					<div class="skills-grid" id="skills-grid"></div>
+				</div>
+			</div>
+		</section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-list" id="education-list"></div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-list" id="experience-list"></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Research and Projects</h2>
+                <div class="projects-grid" id="projects-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Firza Portfolio</p>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

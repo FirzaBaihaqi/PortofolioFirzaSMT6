@@ -1,0 +1,346 @@
+/* CV / Resume Styling for Web and Print */
+:root {
+    --primary-color: #0b0c10;
+    --secondary-color: #1f2833;
+    --accent-color: #66fcf1;
+    --text-color: #333333;
+    --text-light: #666666;
+    --heading-color: #0b0c10;
+    --bg-light: #f8f9fa;
+    --border-color: rgba(0, 0, 0, 0.08);
+    --border-radius: 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text-color);
+    line-height: 1.5;
+    background-color: #e9ecef;
+    padding: 2rem 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+/* Print Action Header */
+.cv-action-bar {
+    max-width: 800px;
+    margin: 0 auto 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cv-action-bar h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.btn-container {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #222222;
+}
+
+.btn-secondary {
+    background-color: #f1f3f5;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+
+.btn-secondary:hover {
+    background-color: #e9ecef;
+}
+
+/* CV Document Container */
+.cv-container {
+    width: 210mm; /* A4 Width */
+    min-height: 297mm; /* A4 Height */
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 20mm 15mm;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+}
+
+/* Header Section */
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 1.5rem;
+}
+
+.header-info h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.2rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    letter-spacing: -0.5px;
+}
+
+.header-info .title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-light);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.header-photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 3px solid var(--bg-light);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.header-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Layout Grid */
+.cv-content {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    gap: 2rem;
+    flex-grow: 1;
+}
+
+/* Left Column - Main Details */
+.cv-main-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Right Column - Sidebar Details */
+.cv-side-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-left: 1px solid var(--border-color);
+    padding-left: 1.5rem;
+}
+
+/* Section Common Styles */
+.cv-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.cv-section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
+    text-transform: capitalize;
+}
+
+/* Profile Description */
+.profile-summary {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+/* Timeline/List Items */
+.timeline-item {
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.2rem;
+}
+
+.item-header h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    flex-grow: 1;
+}
+
+.item-header .date {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-light);
+    background-color: var(--bg-light);
+    padding: 0.1rem 0.5rem;
+    border-radius: 12px;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+.item-subheader {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-light);
+    margin-bottom: 0.3rem;
+}
+
+.item-desc {
+    font-size: 0.85rem;
+    color: #444444;
+    text-align: justify;
+}
+
+/* Contact Info list */
+.contact-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.contact-list li {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    word-break: break-all;
+}
+
+.contact-list li i {
+    color: var(--text-light);
+    width: 1rem;
+    text-align: center;
+}
+
+.contact-list li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.contact-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Skills list */
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skill-pill {
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--border-radius);
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.skill-pill i {
+    color: var(--text-light);
+}
+
+/* Projects styling in CV */
+.cv-project-item {
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.cv-project-item:last-child {
+    margin-bottom: 0;
+}
+
+.project-meta-info {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.project-meta-info span {
+    background: var(--bg-light);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+}
+
+/* Print specific overrides */
+@media print {
+    body {
+        background-color: #ffffff;
+        padding: 0;
+    }
+    
+    .cv-action-bar {
+        display: none !important;
+    }
+    
+    .cv-container {
+        width: 100%;
+        min-height: auto;
+        padding: 0;
+        box-shadow: none;
+        margin: 0;
+    }
+    
+    @page {
+        size: A4;
+        margin: 15mm 15mm 15mm 15mm;
+    }
+
+    /* Keep icons black and white/printable */
+    .contact-list li i, .skill-pill i {
+        color: #333 !important;
+    }
+}

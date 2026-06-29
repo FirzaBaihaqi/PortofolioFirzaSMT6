@@ -1,0 +1,88 @@
+[
+    {
+        "title": "Line following transporter",
+        "year": "2025",
+        "fund": "Rp.300.0000,00",
+        "partner": "Faetro D",
+        "role": "Programmer and Management",
+        "description": "Developed a portable, autonomous line follower transporter for industrial/warehouse logistics. Achieved 90% path-following accuracy under varying light conditions.",
+        "image": "images/project1.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/Line-Follower-Transporter-Elektro-Expo-25.git"
+    },
+    {
+        "title": "Line Follower",
+        "year": "2024",
+        "fund":"Rp.400.000,00",
+        "partner": "Polirevo Team",
+        "role": "Programmer",
+        "description": "Developed an autonomous line follower robot that ensures stable path-tracking across complex track conditions.",
+        "image": "images/project2.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/Line-Follower-Magang-Polirevo.git"
+    },
+	{
+        "title": "Finger-based object detection to help understand sign language",
+        "year": "2026",
+        "role": "Programmer",
+        "description": "Developed a real-time finger detection framework that precisely translates various hand gestures for sign language understanding.",
+        "image": "images/project3.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/Object-Detection-Finger.git"
+    },
+    {
+        "title": "Development of an Autonomous SAR Robot for Victim Detection Across Various Obstacles in KRSRI",
+        "year": "2025",
+        "fund": "Rp.3.000.000,00",
+        "partner": "KRSRI Division",
+        "role": "Programmer",
+        "description": "Developed an autonomous SAR robot capable of navigating complex obstacles and reliably detecting victims for the KRSRI competition.",
+        "image": "images/project4.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/KRSRI-Robot-Putih.git"
+    },
+	{
+        "title": "Kinematic Analysis of a Hiwonder-Based Hexapod Robot",
+        "year": "2025",
+        "fund": "Rp.10.000.000,00",
+        "partner": "KRSRI Division",
+        "role": "Programmer",
+        "description": "Analyzed the kinematics of a Hiwonder hexapod robot to ensure precise foot placement and stable navigation across various structural obstacles.",
+        "image": "images/project5.jpeg"
+    },
+	{
+        "title": "Smart Parking Vehicle Locator System using Automatic Number Plate Recognition",
+        "year": "2026",
+        "fund": "Rp.3.000.000,00",
+        "partner": "Faetro D",
+        "role": "Lead Engineer and Programmer",
+        "description": "Engineered an ANPR-based smart parking system designed to automate vehicle localization and enhance parking lot navigation.",
+        "image": "images/project6.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/Sistem-Pencari-Kendaraan-dengan-Deteksi-Plat-Nomor.git"
+    },
+    {
+        "title": "Stair-climbing robot",
+        "year": "2025",
+        "fund": "Rp.700.000,00",
+        "partner": "Clean Water Initiative",
+        "role": "Mekanik",
+        "description": "Developed an autonomous stair-climbing robot designed to maintain balance and achieve smooth navigation across vertical obstacles.",
+        "image": "images/project7.jpeg"
+    },
+	{
+        "title": "Automatic water level control system using PID control",
+        "year": "2026",
+        "fund": "Rp.300.000,00",
+        "partner": "Faetro D",
+        "role": "Programmer",
+        "description": "Developed an automatic water level control system using PID control to maintain precise fluid volume and eliminate fluid oscillation.",
+        "image": "images/project8.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/Sistem-Water-Level-dengan-Control-PID.git"
+    },
+    {
+        "title": "Design and Development of a Touch-Controlled Automatic Smart Bin Using Assembly Language",
+        "year": "2024",
+        "fund": "Rp.250.000,00",
+        "partner": "Faetro D",
+        "role": "Lead Engineer and Programmer",
+        "description": "Designed and developed a touch-controlled automatic smart bin, utilizing low-level Assembly Language for optimized hardware response and efficient power management.",
+        "image": "images/project9.jpeg",
+        "link": "https://github.com/FirzaBaihaqi/Smart-Trash-Bin-Assembly-Program.git"
+    }
+]

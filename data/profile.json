@@ -1,0 +1,33 @@
+{
+    "name": "Firza Fadhil Baihaqi- Undergraduate Student in Electronics Engineering Technology",
+    "description": "Final-year undergraduate student in Applied Electronics Engineering Technology with a strong interest in robotics, embedded systems, programming, and intelligent automation. Experienced in developing academic and personal projects involving microcontrollers, Raspberry Pi, computer vision, and IoT technologies. Skilled in programming, electronic system design, and 2D/3D CAD modeling. Eager to continuously expand technical expertise and contribute to innovative engineering solutions through analytical thinking, problem-solving, and collaborative teamwork.",
+    "profileImage": "images/profil-cover-firza2.png",
+    "email": "firza.43423309@mhs.polines.ac.id",
+    "phone": "+62 (822) 465-33071",
+    "socialMedia": [
+        {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/in/firzabaihaqi09"
+        },
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/FirzaBaihaqi"
+        },
+        {
+            "platform": "Twitter",
+            "url": "https://twitter.com/Firza09_"
+        }
+    ],
+    "cv": {
+			"text": "Download CV",
+			"file": "cv.html",
+			"icon": "fas fa-file-pdf"
+	},
+    "skills": [
+        {"name": "Internet of Things", "icon": "fas fa-wifi"},
+        {"name": "Hardware Design", "icon": "fas fa-desktop"},
+        {"name": "Hardware Programming", "icon": "fas fa-c"},
+        {"name": "Web Programming", "icon": "fab fa-js"},
+        {"name": "Project Management", "icon": "fas fa-list-check"}
+    ]
+}

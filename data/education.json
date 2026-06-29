@@ -1,0 +1,16 @@
+[
+    {
+        "university": "Politeknik Negeri Semarang",
+		"logo": "images/polines-logo.png",
+        "major": "Undergraduate Student in Electronics Engineering Technology",
+        "year": "2023 - Present",
+        "description": "I am an Electronics Engineering Technology student actively learning and researching Object Detection, Computer Vision, and AI. Currently, I am in the process of working on my Final Project related to these fields."
+    },
+    {
+        "university": "MAN 2 Surakarta",
+		"logo": "images/man-logo.png",
+        "major": "Natural Sciences Major",
+        "year": "2021 - 2023",
+        "description": "I am a high school student active in MPK, the highest student organization at school, and I also enjoy learning foreign languages."
+    }
+]
